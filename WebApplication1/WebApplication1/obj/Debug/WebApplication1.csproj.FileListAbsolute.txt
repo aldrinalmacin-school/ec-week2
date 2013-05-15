@@ -1,0 +1,5 @@
+G:\Enterprise Computing\Class 2\WebApplication1\WebApplication1\bin\WebApplication1.dll
+G:\Enterprise Computing\Class 2\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+G:\Enterprise Computing\Class 2\WebApplication1\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+G:\Enterprise Computing\Class 2\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+G:\Enterprise Computing\Class 2\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
