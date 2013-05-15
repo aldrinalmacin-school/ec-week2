@@ -18,8 +18,8 @@ namespace WebApplication1
         {
             float cost = float.Parse(TipTextBox.Text);
             float tip = float.Parse(TipPercentRadioButtonList.SelectedItem.Value) * cost;
-            TipLabel.Text = "Tip: " + tip.ToString();
-            TotalLabel.Text = "Total: " + (cost + tip).ToString();
+            TipLabel.Text = "Tip: " + Math.Round(tip,2).ToString();
+            TotalLabel.Text = "Total: " + Math.Round((cost + tip), 2).ToString();
         }
     }
 }
