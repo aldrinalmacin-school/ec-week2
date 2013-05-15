@@ -17,7 +17,7 @@ namespace WebApplication1
         protected void CalculateButton_Click(object sender, EventArgs e)
         {
             float cost = float.Parse(TipTextBox.Text);
-            float tip = float.Parse(TipPercentRadioButtonList.SelectedItem.Value) * cost;
+            float tip = float.Parse(TipPercentDropDownList.SelectedItem.Value) * cost;
             TipLabel.Text = "Tip: " + Math.Round(tip,2).ToString();
             TotalLabel.Text = "Total: " + Math.Round((cost + tip), 2).ToString();
         }

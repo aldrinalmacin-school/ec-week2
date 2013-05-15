@@ -31,13 +31,13 @@ namespace WebApplication1 {
         protected global::System.Web.UI.WebControls.Label TipPercentLabel;
         
         /// <summary>
-        /// TipPercentRadioButtonList control.
+        /// TipPercentDropDownList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList TipPercentRadioButtonList;
+        protected global::System.Web.UI.WebControls.DropDownList TipPercentDropDownList;
         
         /// <summary>
         /// CalculateButton control.

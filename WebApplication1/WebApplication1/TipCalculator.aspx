@@ -5,13 +5,17 @@
     <div>
         <asp:TextBox ID="TipTextBox" runat="server"></asp:TextBox>
     </div>
-    <asp:Label ID="TipPercentLabel" runat="server" Text="Pick Tip %"></asp:Label>
-    <asp:RadioButtonList ID="TipPercentRadioButtonList" runat="server">
-        <asp:ListItem Value=".10" Text="10%"></asp:ListItem>
-        <asp:ListItem Value=".15" Text="15%"></asp:ListItem>
-        <asp:ListItem Value=".20" Text="20%"></asp:ListItem>
-    </asp:RadioButtonList>
-    <asp:Button ID="CalculateButton" runat="server" Text="Calculate" onclick="CalculateButton_Click" />
+        <asp:Label ID="TipPercentLabel" runat="server" Text="Pick Tip %"></asp:Label>
+    <div>
+        <asp:DropDownList ID="TipPercentDropDownList" runat="server">
+            <asp:ListItem Value=".10" Text="10"></asp:ListItem>
+            <asp:ListItem Value=".15" Text="15"></asp:ListItem>
+            <asp:ListItem Value=".20" Text="20"></asp:ListItem>
+        </asp:DropDownList>
+    </div>
+    <div>
+        <asp:Button ID="CalculateButton" runat="server" Text="Calculate" onclick="CalculateButton_Click" />
+    </div>
     <div>
         <asp:Label ID="TipLabel" runat="server" Text=""></asp:Label>
     </div>
