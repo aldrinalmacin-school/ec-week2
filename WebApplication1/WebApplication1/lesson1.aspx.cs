@@ -11,7 +11,10 @@ namespace FirstClass
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string x = "Hello World";
+            if (IsPostBack)
+            {
+                string x = "Hello World";
+            }
 
         }
 

@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
-    CodeBehind="Default.aspx.cs" Inherits="FirstClass._Default" %>
+    CodeBehind="lesson1.aspx.cs" Inherits="FirstClass._Default" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
@@ -12,6 +12,15 @@
         </div>
         <div>
             <asp:TextBox ID="TextBox1" runat="server" CssClass="TextBox"></asp:TextBox>
+        </div>
+        <div>
+            <asp:DropDownList ID="DropDownList1" runat="server">
+                <asp:ListItem Value="c#" Text="c#"></asp:ListItem>
+                <asp:ListItem Value="vb" Text="vb"></asp:ListItem>
+                <asp:ListItem Value="java" Text="java"></asp:ListItem>
+            </asp:DropDownList>
+        </div>
+        <div>
             <asp:Button ID="Button1" runat="server" Text="Submit" 
             onclick="Button1_Click" />
         </div>
