@@ -7,7 +7,7 @@
     <h2>
         Welcome to ASP.NET!
     </h2>
-        <asp:Label ID="label1" runat="server"></asp:Label>
+        <asp:Label ID="label1" runat="server" CssClass="Error"></asp:Label>
         <asp:TextBox ID="TextBox1" runat="server" CssClass="TextBox"></asp:TextBox>
         <asp:Button ID="Button1" runat="server" Text="Submit" 
         onclick="Button1_Click" />
