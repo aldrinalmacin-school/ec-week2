@@ -23,13 +23,17 @@ namespace FirstClass
             label1.Text = "You typed " + TextBox1.Text;
 
             //iterate through the items in the dropdown
-            foreach (ListItem item in DropDownList1.Items)
+           /* foreach (ListItem item in DropDownList1.Items)
             {
                 if (item.Selected)
                 {
                     label1.Text += "<br />You selected " + item.Value;
                 }
-            }
+            }*/
+
+            // Shorter solution
+            label1.Text += "<br />You selected " + DropDownList1.SelectedItem.Text;
+            //label1.Text += "<br />You selected " + DropDownList1.SelectedValue;
         }
     }
 }
